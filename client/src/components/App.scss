@@ -1,0 +1,36 @@
+$light-red: #F25757;
+$light-red-shade: #F2575740;
+$white: #ffffff;
+$light-gray: #EAF2FD;
+$dark-gray: #ABADBC;
+$purple: #352ADF;
+$orange: #FA2E1F;
+$black: #07080C;
+$yellow: #EB8D18;
+$gray: #4D5066;
+$green: #3ff93b;
+
+$font-helvetica: Helvetica Neue, sans-serif;
+$font-lato:  Lato, sans-serif;
+  
+html, body, #root, #root > div {
+  background-color: $white;
+  height: 100%;
+  position: relative; 
+}
+
+.content-wrapper {
+  padding-bottom: 4rem;
+}
+
+.switch-wrapper {
+  position: relative;
+  display: block;
+}
+ 
+.switch-wrapper > div {
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+

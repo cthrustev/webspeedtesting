@@ -1,0 +1,28 @@
+.loader-ring {
+  display: inline-block;
+  width: 110px;
+  height: 110px;
+  margin-top: 4rem;
+}
+.loader-ring:after {
+  content: " ";
+  display: block;
+  width: 110px;
+  height: 110px;
+  margin: 1px;
+  border-radius: 50%;
+  border: 6px solid #352ADF;
+  border-color: #352ADF transparent #352ADF transparent;
+  animation: loader-ring 1.2s linear infinite;
+}
+@keyframes loader-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+//Source of the loader animation
+//https://loading.io/css/

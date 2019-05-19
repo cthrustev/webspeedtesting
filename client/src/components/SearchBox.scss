@@ -1,0 +1,15 @@
+@import 'App.scss';
+
+$gray-shade: #222F2C75;
+
+.searchbox-bg {
+  background-color: #352ADF;
+  width: 100%;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.searchinput {
+  max-width: 55rem;
+  margin: 0 auto;
+}

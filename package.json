@@ -1,0 +1,29 @@
+{
+  "name": "fyp-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "audit.model.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "node server.js",
+    "client": "cd client && npm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "chrome-launcher": "^0.10.5",
+    "concurrently": "^4.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "http-delayed-response": "0.0.4",
+    "lighthouse": "^4.2.0",
+    "mongoose": "^5.4.19",
+    "nodemailer": "^6.1.0"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.0"
+  }
+}
