@@ -49,3 +49,6 @@ $ cd .. && npm start
 
 ## Author
 - **Steven Siht** - [Github](https://github.com/cthrustev)
+
+## Deployment
+This project is hosted on [Heroku](https://webspeedtesting.herokuapp.com/) but due to the request timeout limit of Heroku, auditing large pages will throw an error (H12). This will be fixed in future updates where the auditing request will be done by background jobs.
