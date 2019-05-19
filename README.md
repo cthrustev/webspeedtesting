@@ -5,11 +5,11 @@ Web application for website auditing using Lighthouse API. Built on MERN stack.
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
-What things you need to on your machine to run the application locally.
+What things you need installed on your machine to run the application locally.
 * Node.JS (https://nodejs.org/en/)
 
 ### Installing
-A step by step series of examples that tell you how to get a development environment running.
+A step by step series of instructions that tell you how to get a development environment running.
 
 1. Download the repository.
 
